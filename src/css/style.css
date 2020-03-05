@@ -16,13 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  text-align: center;
-}
-
 h1 {
   font-family: 'Oxanium', cursive;
   margin: 20px;
@@ -45,9 +38,9 @@ a {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 100%;
+  right: 0;
 }
 
 footer a {
@@ -56,4 +49,13 @@ footer a {
 }
 footer a svg {
   width: 30px;
+}
+
+.desc {
+  margin: 20px;
+  max-width: 600px;
+  text-align: justify;
+}
+.t-center {
+  text-align: center;
 }
